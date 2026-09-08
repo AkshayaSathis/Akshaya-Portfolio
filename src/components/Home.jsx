@@ -99,7 +99,7 @@ function Home() {
           </button>
         </div>
     <a
-  href="/certificates/AKSHAYA_Resume.pdf"
+  href={`${import.meta.env.BASE_URL}certificates/AKSHAYA_Resume.pdf`}
   download
   className="resume-button"
 >
