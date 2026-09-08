@@ -108,7 +108,7 @@ function Experience() {
             {/* Certificate button */}
 
             <a
-  href="/certificates/internship-certificate.pdf"
+  href={`${import.meta.env.BASE_URL}certificates/internship-certificate.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="certificate-button"

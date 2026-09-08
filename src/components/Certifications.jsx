@@ -29,39 +29,39 @@ function Certifications() {
       }
     };
   }, []);
-
-  const certifications = [
-    {
-      number: "01",
-      title: "Web Designing using Firebase",
-      issuer: "Certificate",
-      file: "/certificates/web-designing.pdf",
-    },
-    {
-      number: "02",
-      title: "UI/UX Design & Development using Figma",
-      issuer: "Certificate",
-      file: "/certificates/ui-ux-figma.pdf",
-    },
-    {
-      number: "03",
-      title: "AR/VR, Cybersecurity & Drone Technology",
-      issuer: "Christ University",
-      file: "/certificates/christ-university.pdf",
-    },
-    {
-      number: "04",
-      title: "Python Basics",
-      issuer: "Infosys Springboard",
-      file: "/certificates/python-basics.pdf",
-    },
-    {
-      number: "05",
-      title: "Prompt Engineering",
-      issuer: "Infosys Springboard",
-      file: "/certificates/prompt-engineering.pdf",
-    },
-  ];
+const certifications = [
+  {
+    number: "01",
+    title: "Web Designing using Firebase",
+    issuer: "Certificate",
+    file: `${import.meta.env.BASE_URL}certificates/web-designing.pdf`,
+  },
+  {
+    number: "02",
+    title: "UI/UX Design & Development using Figma",
+    issuer: "Certificate",
+    file: `${import.meta.env.BASE_URL}certificates/ui-ux-figma.pdf`,
+  },
+  {
+    number: "03",
+    title: "AR/VR, Cybersecurity & Drone Technology",
+    issuer: "Christ University",
+    file: `${import.meta.env.BASE_URL}certificates/christ-university.pdf`,
+  },
+  {
+    number: "04",
+    title: "Python Basics",
+    issuer: "Infosys Springboard",
+    file: `${import.meta.env.BASE_URL}certificates/python-basics.pdf`,
+  },
+  {
+    number: "05",
+    title: "Prompt Engineering",
+    issuer: "Infosys Springboard",
+    file: `${import.meta.env.BASE_URL}certificates/prompt-engineering.pdf`,
+  },
+];
+  
 
   return (
     <section
